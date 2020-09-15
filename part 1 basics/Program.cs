@@ -8,7 +8,7 @@ namespace part_1_basics
         {
 
 
-
+            //microsoft tutorial... Tilson Beattie
 
             //string afriend = ("Bill");
             //string secondfriend = ("charles");
@@ -34,11 +34,61 @@ namespace part_1_basics
             //trimgretting = greeting.Trim();
             //Console.WriteLine($"[{trimgretting}]");
 
-            string sayHello = "Hello World!";
-            Console.WriteLine(sayHello);
-            sayHello = sayHello.Replace("Hello", "Greetings");
-            Console.WriteLine(sayHello);
+            //string sayHello = "Hello World!";
+            //Console.WriteLine(sayHello);
+            //sayHello = sayHello.Replace("Hello", "Greetings");
+            //Console.WriteLine(sayHello);
 
+            //string songLyrics = "You say goodbye, and I say hello";
+            //Console.WriteLine(songLyrics.Contains("goodbye"));
+            //Console.WriteLine(songLyrics.Contains("greetings"));
+
+            //string song2 = "hello";
+            //Console.WriteLine(song2.StartsWith("hello"));
+            //Console.WriteLine(song2.EndsWith("goodbye"));
+
+
+
+
+            // DISPLAY YOUR INITIALS...
+
+            //Console.WriteLine("TTTTT" + "     BBBBB");
+            //Console.WriteLine("  T  " + "     B    B");
+            //Console.WriteLine("  T  " + "     B B B");
+            //Console.WriteLine("  T  " + "     B    B");
+            //Console.WriteLine("  T  " + "     BBBBB");
+
+
+           string firstname = firstname.ToUpper "tilson";
+
+            string favmovie = "the matrix";
+
+            Console.WriteLine($"my name is {firstname} and my fav movie is {favmovie}");
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
+               
+          
+                 
+               
+
+
+
+
+    
+            
+            
 
 
 
