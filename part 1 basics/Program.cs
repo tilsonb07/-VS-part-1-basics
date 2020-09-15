@@ -52,24 +52,37 @@ namespace part_1_basics
 
             // DISPLAY YOUR INITIALS...
 
-            //Console.WriteLine("TTTTT" + "     BBBBB");
-            //Console.WriteLine("  T  " + "     B    B");
-            //Console.WriteLine("  T  " + "     B B B");
-            //Console.WriteLine("  T  " + "     B    B");
-            //Console.WriteLine("  T  " + "     BBBBB");
+            Console.WriteLine("TTTTT" + "     BBBBB");
+            Console.WriteLine("  T  " + "     B    B");
+            Console.WriteLine("  T  " + "     B B B");
+            Console.WriteLine("  T  " + "     B    B");
+            Console.WriteLine("  T  " + "     BBBBB");
 
 
-           string firstname = "tilson";
+            string firstname = "tilson";
            string favmovie = "the matrix";
             
-             
-           Console.WriteLine($"my name is {firstname} and my fav movie is {favmovie}");
-           Console.WriteLine(favmovie.Contains("THE"));
-            //string favmovie = "the matrix".ToUpper();
-            //Console.WriteLine
+           
+            
+            Console.WriteLine($"my name is {firstname} and my fav movie is {favmovie}");
+           
+            Console.WriteLine(favmovie.Contains("the"));
+            
+            
+            favmovie = favmovie.ToUpper();
+            
+            
+            Console.WriteLine(favmovie);
+
+            favmovie = favmovie.Replace("A","@");
+            favmovie = favmovie.Replace("E", "3");
+
+            Console.WriteLine(favmovie);
+
 
             //favmovie = favmovie.Replace("A", "@");
             //favmovie = favmovie.Replace("E", "3");
+
                 
            
             
