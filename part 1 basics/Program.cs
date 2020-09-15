@@ -59,11 +59,25 @@ namespace part_1_basics
             //Console.WriteLine("  T  " + "     BBBBB");
 
 
-           string firstname = firstname.ToUpper "tilson";
+           string firstname = "tilson";
+           string favmovie = "the matrix";
+            
+             
+           Console.WriteLine($"my name is {firstname} and my fav movie is {favmovie}");
+           Console.WriteLine(favmovie.Contains("THE"));
+            //string favmovie = "the matrix".ToUpper();
+            //Console.WriteLine
 
-            string favmovie = "the matrix";
+            //favmovie = favmovie.Replace("A", "@");
+            //favmovie = favmovie.Replace("E", "3");
+                
+           
+            
+            
+            
 
-            Console.WriteLine($"my name is {firstname} and my fav movie is {favmovie}");
+
+
 
 
 
